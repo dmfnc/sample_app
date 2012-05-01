@@ -1,4 +1,6 @@
 SampleApp::Application.routes.draw do
+  get "users/new"
+
   #get "static_pages/contact"
   match '/contact', to: 'static_pages#contact'
 
